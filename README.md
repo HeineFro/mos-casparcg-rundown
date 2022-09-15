@@ -1,17 +1,20 @@
 # mos-casparcg-rundown
 
-CasparCG client for graphics only works with https://github.com/HeineFro/mos-device-rundown 
+CasparCG client for graphics only works with https://github.com/HeineFro/mos-device-rundown
 Its a electron app, running a web server for rundown control, and uses a Elgato streamdeck via bitfocus companion.
 
 It´s running in a OB-truck and a studio continuity on daily basis.
 
-
+//
 
 Install
->> npm install
+
+> > npm install
 
 Run
->> npm start
+
+> > npm start
 
 Build
->> npm run dist:windows
+
+> > npm run dist:windows
