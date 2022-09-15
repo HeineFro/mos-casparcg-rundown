@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+     
+        <meta name="viewport" content="height=device-height, initial-scale=0.8">
+        
+        <script type="text/javascript" src="../wsmaster.js"></script>
+        <script>
+
+            WEBSOCKET_URI = `ws://${ws1Master}/rundowns_gui`
+        </script>
+                <script type="text/javascript" src="../js/controller_ping.js"></script>       
+        <style>
+            @font-face {
+                font-family: sb;
+                src: url('Typo_Round_Bold_Demo.otf')
+
+            }
+
+            body {
+                font-family:sb;
+              
+                margin: 0 auto;
+               
+            }
+            #main {
+                width: 100%;
+                height: 90%;               
+                display: flex;
+                position: absolute;
+              
+            }
+
+            #mainOverlay {
+                width: 100%;
+                display: flex;
+                background-color:transparent;
+                
+                z-index:15;
+                color: white;
+            }
+
+            #reset {
+                top:90%;
+                width: 100%;
+                height: 10%;
+                padding-top: 4%;
+                position: absolute;
+                background-color: bisque;
+                text-align: center;
+                font-size: 4vw;
+                color: white;
+            }
+
+
+            #teamA {
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                text-align: center;
+            }
+
+            #teamB {
+                left: 50%;
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                text-align: center;
+            }
+
+            .numbers {
+                font-size: 70vh;
+         
+                text-align: center;
+              
+                color: white;
+                background-color: blue;
+
+            }
+
+          
+            #a {
+                left:2%;
+               z-index: 11;
+               color: white;
+               font-size: 10vw;  
+               z-index: 10;
+               
+                position: absolute;
+              
+            
+            } 
+
+            #b {           
+               right:2%;
+                z-index: 11;
+                color: white;
+                font-size: 10vw;    
+                z-index: 11; 
+                
+                position: absolute;
+                
+                    } 
+
+
+        </style>
+         
+    </head>
+    <body>
+
+        <div id="a">A</div>
+        <div id="b">B</div>   
+<div id="main">          
+    <div id="teamA" class="numbers">0</div> 
+    <div id="teamB" class="numbers">0</div>
+</div>
+<div id="reset">NULSTIL</div>
+
+
+        
+        <script>
+        
+let log = document.getElementById('main');
+
+log.onclick = inputChange;
+
+
+function inputChange(e) {
+let width = document.getElementById('main')
+  console.log(`Position: (${e.clientX}, ${e.clientY}) ${width.clientWidth} ${width.clientHeight}`);
+
+  if(e.clientX < (width.clientWidth/2) && e.clientY < (width.clientHeight/2)){
+      let number = document.getElementById('teamA').innerHTML      
+     
+      document.getElementById('teamA').innerHTML = Number(number)+1;
+      sendCommand({'teamA':`${Number(number)+1}`})
+      
+  }
+
+  if(e.clientX < (width.clientWidth/2) && e.clientY > (width.clientHeight/2)){
+    let number = document.getElementById('teamA').innerHTML  
+        if(number>0){
+      document.getElementById('teamA').innerHTML = Number(number)-1;
+      sendCommand({'teamA':`${Number(number)-1}`})
+        }
+  }
+
+  if(e.clientX > (width.clientWidth/2) && e.clientY < (width.clientHeight/2)){
+      let number = document.getElementById('teamB').innerHTML      
+      document.getElementById('teamB').innerHTML = Number(number)+1;
+      sendCommand({'teamB':`${Number(number)+1}`})
+
+
+  }
+
+  if(e.clientX > (width.clientWidth/2) && e.clientY > (width.clientHeight/2)){
+      let number = document.getElementById('teamB').innerHTML     
+      if(number>0){ 
+      document.getElementById('teamB').innerHTML = Number(number)-1;
+      sendCommand({'teamB':`${Number(number)-1}`})
+      }
+  }
+}
+
+let reset = document.getElementById("reset")
+
+
+reset.onclick = function() {
+    sendCommand({ 'reset' : 'all'})
+    document.getElementById('teamA').innerHTML = 0;
+    document.getElementById('teamB').innerHTML = 0;
+    console.log('reset')
+
+}
+
+function onMessage(data) {
+
+}
+
+
+
+        </script>
+
+    </body>
+</html>

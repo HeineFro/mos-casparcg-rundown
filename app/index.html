@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG-COM RUNDOWN</title>
+
+    <script src="js/wsRender.js"></script>
+
+
+    <link href="css/app.css" rel="stylesheet">
+</head>
+
+<body style="-webkit-app-region: drag">
+    <div id="header"><img id="logo" src="icon.png">CG-COM RUNDOWN</div>
+    <div id="front">
+
+
+        <div class="octopus" id="octopusId">OCTOPUS</div>
+        <div class="knap" id="ccg">CASPARCG</div><br>
+        <div class="knap1" id="start">RUNDOWNS</div>
+        <div class="knap1" id="start3">CLEAR CACHE</div><br>
+        <div id="box1" class="info">Welcome I´m checking CasparCG's status</div><br>
+        <div id="box2" class="info">Initialize data stream from Octopus</div><br>
+
+
+        <div id="bottomLine">
+            <div class="ver" id="version">Ver. 1.2.5</div>
+            <div class="smallBTN" id="quit">CLOSE</div>
+            <div class="smallBTN" id="myBtn">CONFIG</div>
+
+
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span><br>
+
+            <div id="MainApi" class="cards">Connection to api<br>Main: <input type="text" class="inputLang" id="mainapi"
+                    value="henter data" onchange="update()"><br>
+                Backup: <input type="text" class="inputLang" id="backupapi" value="henter data" onchange="update()"><br>
+                Api Port: <input type="number" class="inputKort" id="apiport" value="henter data" onchange="update()">
+            </div>
+            <div id="cgcom" class="cards">CG-COM Server & webSockets<br>CG COM Server: <input type="text"
+                    class="inputIP" id="mainserver" value="henter data" onchange="update()">
+                <br>GUI Port: <input type="number" class="inputKort" id="controlport" value="henter data"
+                    onchange="update()"><br>
+                Websocket port 1: <input type="number" class="inputKort" id="wsp1" value="henter data"
+                    onchange="update()"><br>
+                Websocket port 2: <input type="number" class="inputKort" id="wsp2" value="henter data"
+                    onchange="update()">
+            </div><br>
+            <div id="cgcom" class="cards">CasparCG connections<br>
+                CCG Server: <input type="text" class="inputIP" id="ccgip" value="henter data" onchange="update()"><br>
+                CCG CH: <input type="number" class="inputKort" id="mainch" value="henter data" onchange="update()"><br>
+                CCG Layer: <input type="number" class="inputKort" id="mainlayer" value="henter data"
+                    onchange="update()"><br>
+                CCG Preview CH: <input type="number" class="inputKort" id="previewch" value="henter data"
+                    onchange="update()"><br>
+                <label for="temp">Template:</label>
+                <select id="temp" name="tempSelct" class="inputLang">
+                    <option value="SOS" class="selc">SoundOfSummer</option>
+                    <option value="TV2default" class="selc">Standard</option>
+                    <option value="TEMPLATE_JS" class="selc">Folkemøde</option>
+                    <option value="TMB" class="selc">TrollingMaster</option>
+                    <option value="SPROGBLOMSTER_SEP21" class="selc">Sprogblomster</option>
+                    <option value="KV21" class="selc">KV21</option>
+                </select>
+            </div><br>
+            <div class="smallBTN1" id="gemconfig">Save & Restart</div><br>
+            <div id="gemt"></div>
+
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+    <div id="confirm" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content1">
+            <div id="Crit">
+                <h2>Critical action!</h2><br>Confirm that you want to restart CasparCG
+            </div><br>
+            <div class="knap2" id="confirmRestart">CONFIRM</div>
+            <div class="knap2" id="abortRestart">ABORT</div><br>
+
+
+        </div>
+
+    </div>
+
+    <div id="startPanel">
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

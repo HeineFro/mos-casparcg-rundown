@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; ">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+    <title>RUNDOWNS</title>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script src="../js/controller_ping.js"></script>
+    <script type="text/javascript" src="../wsmaster.js"></script>
+    <script type="text/javascript" src="js/show.js"></script>
+    
+    <script>
+
+        WEBSOCKET_URI = `ws://${ws1Master}/rundowns_gui`
+    </script>
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
+    <link href="css/tooltip.css" rel="stylesheet" type="text/css">
+    <link href="css/show-tmb.css" rel="stylesheet" type="text/css">
+    <style>
+        .page,
+         :target~.default {
+            display: none;
+        }
+        
+        .default,
+         :target {
+            display: block;
+        }
+        
+        #fixSpecials {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">SHOW<span>2021</span></div>
+        <div id="fixSpecials"></div>
+    </header>
+    <!-- Sidebar -->
+    <div class="nav-btn">Menu</div>
+
+
+    <div class="sidebar" id="sjovs">
+        <div class="NavToggle"><img class="ShowIcon" src="img/TMB-show-icon.png" width="84" height="84" alt="" /></div>
+        <nav>
+            <a href="#">SHOW<span>2021</span></a>
+
+            <ul>
+                <li class="active"><a href="#" onclick="getAtive01()">RUNDOWN</a></li>
+                <li>
+                    <a href="#pgm1" id="namepgm1" onclick="getAktive(1)">-</a>
+                </li>
+                <li><a href="#pgm2" id="namepgm2" onclick="getAktive(2)">-</a></li>
+                <li><a href="#pgm3" id="namepgm3" onclick="getAktive(3)">-</a></li>
+                <li><a href="#pgm4" id="namepgm4" onclick="getAktive(4)">-</a></li>
+                <li><a href="#pgm5" id="namepgm5" onclick="getAktive(5)">-</a></li>
+                <li><a href="#pgm6" id="namepgm6" onclick="getAktive(6)">-</a></li>
+                <li><a href="#pgm7" id="namepgm7" onclick="getAktive(7)">-</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="btnVindue2">
+
+        <div id="autoText">Auto Next</div>
+        <div id="autobox">
+            <label class="switch">
+	        <input id="checkbox" class="switch-input" type="checkbox" checked>
+	        <span class="switch-label" data-on="On" data-off="Off" ></span> 
+	        <span class="switch-handle"></span> 
+            </label>
+        </div>
+
+    </div>
+    <div class="btnVindue" onclick="getit()">Opdater</div>
+
+
+    <div id="pgm1" class="main-content page"></div>
+
+    <div id="pgm2" class="main-content page">
+
+
+    </div>
+
+    <div id="pgm3" class="main-content page"></div>
+    <div id="pgm4" class="main-content page"></div>
+    <div id="pgm5" class="main-content page"></div>
+    <div id="pgm6" class="main-content page"></div>
+    <div id="pgm7" class="main-content page"></div>
+
+    <script type="text/javascript">
+        sendCommand({
+            'getRDoctopus': 'true'
+        });
+        $(document).ready(function() {
+            getit();
+            $('.nav-btn').on('click', function(event) {
+                event.preventDefault();
+                /* Act on the event */
+                $('.sidebar').slideToggle('fast');
+
+                window.onresize = function() {
+                    if ($(window).width() >= 768) {
+                        $('.sidebar').show();
+                    } else {
+                        $('.sidebar').hide();
+                    }
+                };
+            });
+        });
+        getit = () => {
+            sendCommand({
+                'getRDoctopus': 'true'
+            });
+            $(".datainfo2").click();
+        }
+        $('#checkbox').click(function() {
+           
+    if (!$(this).is(':checked')) {
+      
+
+      localStorage.setItem('auto', 'false');
+    } else {
+       
+        localStorage.setItem('auto', 'true');
+    }
+  });
+        updateAutoState = () => {
+            console.log('item')
+            if(localStorage.getItem("auto")) {
+                if(localStorage.getItem('auto') === 'true') {
+                   
+                    document.getElementById("checkbox").checked = true;
+                } else {
+                    document.getElementById("checkbox").checked = false;
+
+                }           
+            
+            
+            } 
+
+        }
+        updateAutoState();
+        box = () => {
+            let auto = document.getElementById('checkbox').checked
+            if (auto) {
+                console.log('on')
+            } else {
+                console.log('off')
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            var $sidebar = $('.sidebar');
+            var $container = $('.main-content');
+            var $navtoggle = $('.NavToggle');
+
+            $button = $('.NavToggle');
+            $button.on('click', toggleMenu);
+
+            function toggleMenu() {
+                $sidebar.toggleClass('slide');
+                $container.toggleClass('slidemain');
+                $navtoggle.toggleClass('slideNavIcon');
+                console.log("Sidebar");
+                sendCommand({
+                    'getRDoctopus': 'true'
+                });
+
+            }
+        });
+        //hvorfor kommer det ikke?
+        function datainfo1() {
+
+            $(".info-top").addClass("infofocus");
+            //$(".info-top").addClass("infofocus"); 
+            setTimeout(function() {
+                $(".info-top").removeClass('infofocus');
+            }, 8000);
+        }
+    </script>
+
+    <script src="js/buildfromRD.js"></script>
+
+    <script type="text/javascript" src="js/Tooltip.js"></script>
+</body>
+
+</html>

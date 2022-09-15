@@ -1,0 +1,17 @@
+/*
+ * Tooltip.js styles
+ */
+#tooltip {
+	position: absolute;
+	background: #003467;
+	color: #F9F9F9;
+	padding: 1vw;
+	border-radius: 6px 0px 6px 6px;
+	z-index: 999;
+	font-size: 1.4vw;
+	letter-spacing: 0.7px;
+}
+
+#tooltip.alt-tooltip {
+	background: #490B22;
+}

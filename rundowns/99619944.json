@@ -1,0 +1,1969 @@
+{
+    "mosID": "CasparCG",
+    "ncsID": "Octopus",
+    "messageID": "149143",
+    "roReplace": {
+        "roID": "99619944",
+        "roSlug": "2022 01 Sprogblomster",
+        "roEdDur": "01:35:43",
+        "roTrigger": "TIMED",
+        "story": [
+            {
+                "storyID": "182626727",
+                "storySlug": "SPROGBLOMST-INTRO",
+                "storyNum": "1",
+                "item": {
+                    "itemID": "1",
+                    "itemSlug": {},
+                    "objID": {},
+                    "mosID": {},
+                    "itemTrigger": "MANUAL"
+                }
+            },
+            {
+                "storyID": "182626728",
+                "storySlug": "Velkommen",
+                "storyNum": "2",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626735",
+                "storySlug": "1. Ræjtijt æjle Forkjert Søren Kniggla = have en vaklende gang",
+                "storyNum": "3",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-s9t_afjv",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Kniggla"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626736",
+                "storySlug": "2. Ræjtijt æjle Forkjert Niels-Jørn En vannso = skib, der tager meget vand over i søgang",
+                "storyNum": "4",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-dxkhgf5j",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "En vannso"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626729",
+                "storySlug": "1. Ord Bjarne Vrissijn = om træ med snoninger",
+                "storyNum": "5",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-0pu8sdy8",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Vrissijn"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "træ med snoninger"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626730",
+                "storySlug": "2. Ord Denni Ammelier = som ligner, passer sammen",
+                "storyNum": "6",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-jrivbn1z",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Ammelier"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "som ligner, passer sammen"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042848",
+                "storySlug": "Introduktion til Alfred Jensen+Solbjærnijn",
+                "storyNum": "7",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion til Alfred Jensen+Solbjærnijn-VS",
+                        "objID": "69144022ac9048628832f3e99856f84b",
+                        "mosID": "sony.StudioA.mos",
+                        "mosAbstract": "Introduktion til Alfred Jensen+Solbjærnijn-VS 02:46",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\fb3d821659c344fbafd2a694abb94850\\Alex Speed læser historier_2022-01-03 08_12_066e5fc61c5af14228bc5266382084207b.mxf"
+                            },
+                            "objProxyPath": {
+                                "techDescription": "BMP",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\fb3d821659c344fbafd2a694abb94850\\69144022ac9048628832f3e99856f84b_ICON.BMP"
+                            }
+                        },
+                        "itemEdDur": "8276",
+                        "itemTrigger": "MANUAL",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626737",
+                "storySlug": "1. Hvem er det der siger? Bjarne  La vos nu bâra skro i vos",
+                "storyNum": "8",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-m38dl0jw",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "La vos nu bâra skro i vos"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626738",
+                "storySlug": "2. Hvem er det der siger? Niels-Jørn Ävent",
+                "storyNum": "9",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-01klo2ap",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Ävent"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042849",
+                "storySlug": "Digtet Najse",
+                "storyNum": "10",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Digtet Najse-VS",
+                        "objID": "43d9b37ffc0346308a8c4580872d772a",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\54f0c1878fe240738781851ac3cba94f\\Alex Speed læser historier_2022-01-03 09_11_152e5ad6f1adfc470baedb4dfae9c000a0.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\54f0c1878fe240738781851ac3cba94f\\Alex Speed læser historier_2022-01-03 09_11_15b0f5d98a767a46449219b2eb15efb3c6.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\54f0c1878fe240738781851ac3cba94f\\43d9b37ffc0346308a8c4580872d772a_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "4630",
+                        "itemTrigger": "MANUAL",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626731",
+                "storySlug": "3. Ord Mimi Vallman = groft uldtøj (vadmel)",
+                "storyNum": "11",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-mtcqga4v",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Vallman"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "groft uldtøj (vadmel)"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626732",
+                "storySlug": "4. Ord Anne Ejn præstakrawa = pinselije",
+                "storyNum": "12",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-xgm0cu15",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Ejn præstakrawa"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "pinselije"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626741",
+                "storySlug": "3. Ræjtijt æjle Forkjert  Mimi Spemula = spydigt Menneske, Spottefugl",
+                "storyNum": "13",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-324wy_1p",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Spemula"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626745",
+                "storySlug": "4. Ræjtijt æjle Forkjert  Anne: En myr: mose/sump",
+                "storyNum": "14",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-i_vvax4g",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "En myr"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": {}
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626733",
+                "storySlug": "5. Ord Søren En olja = vandtrug",
+                "storyNum": "15",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-gbpjti6h",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "En olja"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "vandtrug"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626734",
+                "storySlug": "6. Ord Niels-Jørn Ejn saisabomm = Skaft, som Leen er gjort fast til",
+                "storyNum": "16",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1-1",
+                        "itemSlug": "SPROGBLOMSTER_SEP21",
+                        "objID": "SPROGBLOMSTER_SEP21-a2ww1vna",
+                        "mosID": "CCG",
+                        "mosAbstract": "SPROGBLOMSTER_SEP21",
+                        "objPaths": {
+                            "objProxyPath": {
+                                "techDescription": "Thumbnail_PNG",
+                                "$t": "http://cg3.tv2b.local:7200/api/cg/thumb/SPROGBLOMSTER_SEP21"
+                            }
+                        },
+                        "itemEdDur": "0",
+                        "macroIn": {},
+                        "macroOut": {},
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "astra://OBJECT/CG",
+                            "mosPayload": {
+                                "astra_payloadObjectCG": {
+                                    "fieldDescr": [
+                                        {
+                                            "fieldName": {
+                                                "name": "Ord",
+                                                "$t": "f0"
+                                            },
+                                            "fieldValue": "Ejn saisabomm"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "Svar",
+                                                "$t": "f1"
+                                            },
+                                            "fieldValue": "Skaft Leen er gjort fast til"
+                                        },
+                                        {
+                                            "fieldName": {
+                                                "name": "astra_category",
+                                                "$t": "f2"
+                                            },
+                                            "fieldValue": "Led1 gfx"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626753",
+                "storySlug": "Skyderi fra hoften: Sport",
+                "storyNum": "17",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626754",
+                "storySlug": "Dagens resultat og blomster",
+                "storyNum": "18",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626755",
+                "storySlug": "Credit på studiet",
+                "storyNum": "19",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626756",
+                "storySlug": "SPROGBLOMST-OUTRO",
+                "storyNum": "20",
+                "item": {
+                    "itemID": "2",
+                    "itemSlug": {},
+                    "objID": {},
+                    "mosID": {},
+                    "itemTrigger": "CHAINED"
+                }
+            },
+            {
+                "storyID": "182626757",
+                "storySlug": "Stop (1)",
+                "storyNum": "21",
+                "item": {
+                    "itemID": "1",
+                    "itemSlug": {},
+                    "objID": {},
+                    "mosID": {},
+                    "itemTrigger": "MANUAL"
+                }
+            },
+            {
+                "storyID": "184042850",
+                "storySlug": "Digtet Rokkesten",
+                "storyNum": "22",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Digtet Rokkesten-VS",
+                        "objID": "88ffb000614b4e6ba68f3a412bed9491",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\035e69b1be814dd28ee44212af9b31ff\\Alex Speed læser historier_2022-01-03 09_12_089f5b3210a5a141088988401b159f5995.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\035e69b1be814dd28ee44212af9b31ff\\Alex Speed læser historier_2022-01-03 09_12_08e056555609864d679fc09c777b140548.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\035e69b1be814dd28ee44212af9b31ff\\88ffb000614b4e6ba68f3a412bed9491_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "3784",
+                        "itemTrigger": "MANUAL",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042851",
+                "storySlug": "En sansaga",
+                "storyNum": "23",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "En sansaga-VS",
+                        "objID": "acdcf62f18464ff18e2ed763798e87d2",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\13dd041c330a440dba0e3b6ec5c0652b\\Alex Speed læser historier_2022-01-03 09_13_109e16e165bd0f45108381543fe1b1fd25.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\13dd041c330a440dba0e3b6ec5c0652b\\Alex Speed læser historier_2022-01-03 09_13_10ff746765391a4fc0adaadcff56c91c1a.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\13dd041c330a440dba0e3b6ec5c0652b\\acdcf62f18464ff18e2ed763798e87d2_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "24440",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042852",
+                "storySlug": "Introduktion+arien Bispijn a Fårebyhorrijn",
+                "storyNum": "24",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion+arien Bispijn a Fårebyhorrijn-VS",
+                        "objID": "a7e4c23e677d43f1be58653104070dd4",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\6e4028f3ce6d4b9da4aed2ea76debd25\\Alex Speed læser historier_2022-01-03 09_14_09ed5a4b1a76af48d4a833ef734687f93f.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\6e4028f3ce6d4b9da4aed2ea76debd25\\Alex Speed læser historier_2022-01-03 09_14_09828a2deee2e442e1a063a7797839bdc6.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\6e4028f3ce6d4b9da4aed2ea76debd25\\a7e4c23e677d43f1be58653104070dd4_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "5580",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042853",
+                "storySlug": "Arien En ajnen Religion",
+                "storyNum": "25",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Arien En ajnen Religion-VS",
+                        "objID": "54828efa187b4994aafe5bf7c7dd9c34",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\5a88e8c6775c4437acdca3d45ab2dc37\\Alex Speed læser historier_2022-01-03 09_15_046d1c8ac8a7d34bb394e2cb75f2bb35ea.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\5a88e8c6775c4437acdca3d45ab2dc37\\Alex Speed læser historier_2022-01-03 09_15_0405cd0978fd454627a9662271e08aeec2.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\5a88e8c6775c4437acdca3d45ab2dc37\\54828efa187b4994aafe5bf7c7dd9c34_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "1666",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042854",
+                "storySlug": "Introduktion+sansagan Majn frå Paris",
+                "storyNum": "26",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion+sansagan Majn frå Paris-VS",
+                        "objID": "599255e4f3564c029c1ab4beda6d2bac",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\9105d18998f4433e8ca615384c11a5ed\\Alex Speed læser historier_2022-01-03 09_16_09087b5c5042f8408198ca9c418d710335.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\9105d18998f4433e8ca615384c11a5ed\\Alex Speed læser historier_2022-01-03 09_16_096e9ca3c7384648b1ae1ef3f4f02255fd.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\9105d18998f4433e8ca615384c11a5ed\\599255e4f3564c029c1ab4beda6d2bac_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "15708",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042855",
+                "storySlug": "Introduktion+arien To alijnabo på tur",
+                "storyNum": "27",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion+arien To alijnabo på tur-VS",
+                        "objID": "715e0346831248d386756a3ca975211f",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\dd36b87434d44cdeaa2302446176a6f1\\Alex Speed læser historier_2022-01-03 09_17_53d33773fc715e4f849ddba5d997f86efa.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\dd36b87434d44cdeaa2302446176a6f1\\Alex Speed læser historier_2022-01-03 09_17_532ad3e89c70684e4b8b3b3c398dfdebc0.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\dd36b87434d44cdeaa2302446176a6f1\\715e0346831248d386756a3ca975211f_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "4952",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042856",
+                "storySlug": "Arien Piller Pærskersen",
+                "storyNum": "28",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Arien Piller Pærskersen-VS",
+                        "objID": "cbd3f4df495446feb17ea3b3ac835b4f",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\f119873d855044d99c2d36fe5f239593\\Alex Speed læser historier_2022-01-03 09_18_317c0b53cf661941578abf1921bd507025.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\f119873d855044d99c2d36fe5f239593\\Alex Speed læser historier_2022-01-03 09_18_318984b77f02fc44d69a5eeec42dae90fe.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\f119873d855044d99c2d36fe5f239593\\cbd3f4df495446feb17ea3b3ac835b4f_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "3024",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042857",
+                "storySlug": "Introduktion+digtet Mit Jemlans Minje",
+                "storyNum": "29",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion+digtet Mit Jemlans Minje-VS",
+                        "objID": "170a6494abc4487394066f299063a29c",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\529bc9199d4742c8b6082840983ec49e\\Alex Speed læser historier_2022-01-03 09_20_085743703aae074bcab7768f2625a19592.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\529bc9199d4742c8b6082840983ec49e\\Alex Speed læser historier_2022-01-03 09_20_084f011ffba6154bb1b2a64982678bd5ec.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\529bc9199d4742c8b6082840983ec49e\\170a6494abc4487394066f299063a29c_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "10800",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042858",
+                "storySlug": "Digtet Borrita",
+                "storyNum": "30",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Digtet Borrita-VS",
+                        "objID": "d0ae6e7d08f54f4bb1a4eb486732fcd0",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\573ea295d5ff494e9596b772bd2844f5\\Alex Speed læser historier_2022-01-03 09_20_49e2cd66817d864c0b96ea845b15c84786.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\573ea295d5ff494e9596b772bd2844f5\\Alex Speed læser historier_2022-01-03 09_20_495a80e90f33e645c5a99c53a39c261470.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\573ea295d5ff494e9596b772bd2844f5\\d0ae6e7d08f54f4bb1a4eb486732fcd0_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "11282",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042859",
+                "storySlug": "Introduktion+digtet Vår Ø vårt Jem",
+                "storyNum": "31",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Introduktion+digtet Vår Ø vårt Jem-VS",
+                        "objID": "04b5d2369765400c893d4377f73579a1",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\aaf0bffbc205461283ea3e0e992fdad6\\Alex Speed læser historier_2022-01-03 09_21_56e1ae7d63b24b481e97afec46745902f3.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\aaf0bffbc205461283ea3e0e992fdad6\\Alex Speed læser historier_2022-01-03 09_21_56b7022ed6957e4188b910d38d8c703843.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\aaf0bffbc205461283ea3e0e992fdad6\\04b5d2369765400c893d4377f73579a1_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "6074",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042860",
+                "storySlug": "Digtet Klaus Annarsen å hans Vær",
+                "storyNum": "32",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Digtet Klaus Annarsen å hans Vær-VS",
+                        "objID": "a39a9892926c4d4289ab7547cc329f02",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\e64cf4ebcf5140c3bfae1ff807373908\\Alex Speed læser historier_2022-01-03 09_22_384a345a42bfa84e0d96da7965f29567b5.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\e64cf4ebcf5140c3bfae1ff807373908\\Alex Speed læser historier_2022-01-03 09_22_38a7475e276fd242fc88bc896a8ab002a6.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\e64cf4ebcf5140c3bfae1ff807373908\\a39a9892926c4d4289ab7547cc329f02_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "6552",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042861",
+                "storySlug": "Digtet Gammalmanjsprat",
+                "storyNum": "33",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Digtet Gammalmanjsprat-VS",
+                        "objID": "85aadace52b04d8485fab268bdf0a36d",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\55c36f1718aa4cfc9407904f12edef19\\Alex Speed læser historier_2022-01-03 09_23_37978b4581cc584a8da9e39bf83ee5fe7f.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\55c36f1718aa4cfc9407904f12edef19\\Alex Speed læser historier_2022-01-03 09_23_37f0f5c1fb381d4035b4f8156085783598.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\55c36f1718aa4cfc9407904f12edef19\\85aadace52b04d8485fab268bdf0a36d_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "8382",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "184042862",
+                "storySlug": "Fortællingen Enj Drajninjssvensk",
+                "storyNum": "34",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": "Fortællingen Enj Drajninjssvensk-VS",
+                        "objID": "b014ee8f06944eda9f39333a84d7c39a",
+                        "mosID": "sony.StudioA.mos",
+                        "objPaths": {
+                            "objPath": {
+                                "techDescription": "MXF",
+                                "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\aea8e160f5214825bdf052c9e552930c\\Alex Speed læser historier_2022-01-03 09_25_1958ce3ec000f240ea9c0aee40485b4c08.mxf"
+                            },
+                            "objProxyPath": [
+                                {
+                                    "techDescription": "WM",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\TranscodeOut\\low_video\\aea8e160f5214825bdf052c9e552930c\\Alex Speed læser historier_2022-01-03 09_25_195756c7f2c1264bc589d8e891be9b79ae.mp4"
+                                },
+                                {
+                                    "techDescription": "BMP",
+                                    "$t": "\\\\bh-isilon.sonaps.local\\sonaps\\CompileOUT\\high_video\\aea8e160f5214825bdf052c9e552930c\\b014ee8f06944eda9f39333a84d7c39a_ICON.BMP"
+                                }
+                            ]
+                        },
+                        "itemEdDur": "29362",
+                        "itemTrigger": "CHAINED",
+                        "mosExternalMetadata": {
+                            "mosScope": "PLAYLIST",
+                            "mosSchema": "http://sony.com/schema/sonaps4.5",
+                            "mosPayload": {
+                                "objectType": "CLIP",
+                                "siteID": "14"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "storyID": "182626739",
+                "storySlug": "1. BFO  oplæg",
+                "storyNum": "35",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626740",
+                "storySlug": "1. BFO ordet",
+                "storyNum": "36",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626742",
+                "storySlug": "1. BFO svaret",
+                "storyNum": "37",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626743",
+                "storySlug": "2. BFO oplæg",
+                "storyNum": "38",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626744",
+                "storySlug": "2. BFO ordet",
+                "storyNum": "39",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626747",
+                "storySlug": "1. Indslag oplæg",
+                "storyNum": "40",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626748",
+                "storySlug": "1. Indslag",
+                "storyNum": "41",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_VS",
+                        "objID": "TE/TVB_VS",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626749",
+                "storySlug": "1. Indslag snak",
+                "storyNum": "42",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626750",
+                "storySlug": "2. Indslag oplæg",
+                "storyNum": "43",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626751",
+                "storySlug": "2. Indslag",
+                "storyNum": "44",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626752",
+                "storySlug": "2. Indslag snak",
+                "storyNum": "45",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "CHAINED"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "CHAINED"
+                    }
+                ]
+            },
+            {
+                "storyID": "182626746",
+                "storySlug": "2. BFO svaret",
+                "storyNum": "46",
+                "item": [
+                    {
+                        "itemID": "1--1",
+                        "itemSlug": "TVB_KAM",
+                        "objID": "TE/TVB_KAM",
+                        "mosID": "AS2.TV2.MOS",
+                        "mosAbstract": {},
+                        "objPaths": {},
+                        "itemTrigger": "MANUAL"
+                    },
+                    {
+                        "itemID": "1",
+                        "itemSlug": {},
+                        "objID": {},
+                        "mosID": {},
+                        "itemTrigger": "MANUAL"
+                    }
+                ]
+            }
+        ]
+    }
+}
