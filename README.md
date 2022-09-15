@@ -9,12 +9,12 @@ It´s running in a OB-truck and a studio continuity on daily basis.
 
 Install
 
-> > npm install
+- npm install
 
 Run
 
-> > npm start
+- npm start
 
 Build
 
-> > npm run dist:windows
+- npm run dist:windows
