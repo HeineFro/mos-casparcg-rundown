@@ -64,7 +64,7 @@ createHead = (con, page) => {
 };
 createAveco = (fields, inTime, temp, page, pageClass, dur) => {
     if (fields.fieldDescr[0].fieldName.name !== 'Kontrol') {
-        if (temp.includes("_IDENT")) {
+        if (temp.includes("IDENT")) {
             worldCountIdent++
         } else {
             worldCount++
@@ -144,7 +144,7 @@ createAveco = (fields, inTime, temp, page, pageClass, dur) => {
         btnBox.className = 'btnBox'
 
 
-        if (temp.includes("_IDENT")) {
+        if (temp.includes("IDENT")) {
             div.setAttribute("onClick", `sendCommand({${tempContent}}), showLoadIdent('boxIdent${worldCountIdent}', ${worldCountIdent}, ${time})`);
         } else {
             div.setAttribute("onClick", `sendCommand({${tempContent}}), showLoad('box${worldCount}', ${worldCount}, ${time})`);
