@@ -24,7 +24,7 @@ const ccgState = require('../server/ccgState');
 //npm for opening webbrowser
 const open = require('open');
 //get path of app
-const rootPath = require('electron-root-path').rootPath;
+// -> delete const rootPath = require('electron-root-path').rootPath;
 //start CasparCG connection
 const ccg = require('../server/casparcg01');
 const fs = require('fs-extra')
