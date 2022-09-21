@@ -24,7 +24,7 @@ settings.set('CasparCG', {
     MainCh: 1,
     MainLayer: 20,
     PreviewCh: 3,
-    pathTemplates: "TV2default"
+   
 })
 
 settings.set('api01', {
