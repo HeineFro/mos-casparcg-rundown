@@ -68,16 +68,16 @@ if (configExits) {
             "pathTemplates": "TV2default"
         },
         "api01": {
-            "ip": "http://cg-api01.tv2b.local",
+            "ip": "http://127.0.0.1",
             "port": "8081",
-            "active": "http://cg-api01.tv2b.local:8081/mosactive",
-            "pathrundowns": "http://cg-api01.tv2b.local:8081/rundowns/"
+            "active": "http://127.0.0.1:8081/mosactive",
+            "pathrundowns": "http://127.0.0.1:8081/rundowns/"
         },
         "api02": {
-            "ip": "http://cg-api02.tv2b.local",
+            "ip": "http://127.0.0.1",
             "port": "8081",
-            "active": "http://cg-api02.tv2b.local:8081/mosactive",
-            "pathrundowns": "http://cg-api02.tv2b.local:8081/rundowns/"
+            "active": "http://127.0.0.1:8081/mosactive",
+            "pathrundowns": "http://127.0.0.1:8081/rundowns/"
         }
     }
 
