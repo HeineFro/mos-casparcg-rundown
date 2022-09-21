@@ -65,7 +65,7 @@ if (configExits) {
             "MainCh": "1",
             "MainLayer": "20",
             "PreviewCh": "3",
-            "pathTemplates": "TV2default"
+           
         },
         "api01": {
             "ip": "http://127.0.0.1",
