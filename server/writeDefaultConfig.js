@@ -28,16 +28,16 @@ settings.set('CasparCG', {
 })
 
 settings.set('api01', {
-    ip: "http://cg-api01.tv2b.local",
+    ip: "http://0.0.0.0",
     port: 8081,
     active: "http://127.0.0.1:8081/mosactive",
     pathrundowns: "http://127.0.0.1:8081/rundowns/"
 })
 
 settings.set('api02', {
-    ip: "http://cg-api02.tv2b.local",
+    ip: "http://0.0.0.0",
     port: 8081,
-    active: "http://127.0.0.1:8081:8081/mosactive",
+    active: "http://127.0.0.1:8081/mosactive",
     pathrundowns: "http://127.0.0.1:8081/rundowns/"
 })
 
